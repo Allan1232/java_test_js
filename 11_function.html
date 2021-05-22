@@ -7,8 +7,15 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>哈囉你好!~</h1>
-    <s1>s1s1</s1>
-    
+    <script>
+      function A_function(x){
+          document.write("這是A<br>");
+          x();
+      };
+      function B_function(){
+          document.wrire('2');
+      };
+      A_function(B_function);
+    </script>
 </body>
 </html>
